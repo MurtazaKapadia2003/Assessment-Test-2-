@@ -1,0 +1,67 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar container styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+/* Logo styles */
+.logo img {
+   width: 100px; /* Adjust size as needed */
+
+/* Navigation Links container */
+ .nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+ }   
+
+ /* Individual navigation items */
+ .nav-item {
+    position: relative;
+ }
+
+.nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    display: block;
+ }
+
+ /* Dropdown specific styles */
+.dropdown:hover .dropdown-content {
+    display: block;
+}}
+
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1; 
+}
+
+/* Dropdown links */
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a: hover {
+    background-color: #ddd;
+}
+  
